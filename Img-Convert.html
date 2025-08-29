@@ -3,8 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ImageConvert Pro - Free Image Converter</title>
+    <meta name="description" content="Free Online Image Converter - Convert images between JPG, PNG, WEBP, BMP formats instantly. No registration required. Preserve image quality with our easy-to-use tool.">
+    <meta name="keywords" content="image converter, free image converter, convert jpg to png, png to jpg, webp converter, bmp converter, online image tool, free image tool">
+    <meta name="author" content="ImageConvert Pro">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Free Online Image Converter - Convert Images Instantly">
+    <meta property="og:description" content="Convert images between formats without losing quality. Free, fast, and easy-to-use online image conversion tool.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://imageconvertpro.com">
+    <meta property="og:image" content="https://imageconvertpro.com/preview.jpg">
+    <title>Free Online Image Converter - Convert JPG, PNG, WEBP, BMP Images | ImageConvert Pro</title>
+    <link rel="canonical" href="https://imageconvertpro.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "ImageConvert Pro",
+      "url": "https://imageconvertpro.com",
+      "description": "Free online tool to convert images between different formats including JPG, PNG, WEBP, and BMP.",
+      "applicationCategory": "MultimediaApplication",
+      "operatingSystem": "Any",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
     <style>
         * {
             margin: 0;
@@ -52,6 +78,23 @@
         header p {
             font-size: 1.1rem;
             opacity: 0.9;
+        }
+        
+        .breadcrumb {
+            padding: 15px 25px;
+            background: #f1f5ff;
+            font-size: 0.9rem;
+            color: #555;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .breadcrumb a {
+            color: #4b6cb7;
+            text-decoration: none;
+        }
+        
+        .breadcrumb a:hover {
+            text-decoration: underline;
         }
         
         .app-container {
@@ -275,12 +318,52 @@
             100% { transform: rotate(360deg); }
         }
         
+        .seo-content {
+            padding: 25px;
+            background: #f9f9f9;
+            border-top: 1px solid #eee;
+        }
+        
+        .seo-content h2 {
+            color: #4b6cb7;
+            margin-bottom: 15px;
+        }
+        
+        .seo-content p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+            color: #555;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .feature {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+        
+        .feature i {
+            font-size: 2rem;
+            color: #4b6cb7;
+            margin-bottom: 15px;
+        }
+        
         footer {
             text-align: center;
             padding: 20px;
             color: white;
             font-size: 0.9rem;
             margin-top: auto;
+            background: rgba(0, 0, 0, 0.2);
+            width: 100%;
+            border-radius: 0 0 20px 20px;
         }
         
         @media (max-width: 768px) {
@@ -310,6 +393,10 @@
             <h1><i class="fas fa-exchange-alt"></i> ImageConvert Pro</h1>
             <p>Convert your images to any format - completely free!</p>
         </header>
+        
+        <div class="breadcrumb">
+            <a href="#">Home</a> > <a href="#">Tools</a> > <a href="#">Image Converter</a>
+        </div>
         
         <div class="app-container">
             <div class="upload-section">
@@ -379,6 +466,47 @@
                     <button class="btn btn-reset" id="resetBtn"><i class="fas fa-redo"></i> Reset All</button>
                 </div>
             </div>
+        </div>
+        
+        <div class="seo-content">
+            <h2>Free Online Image Converter</h2>
+            <p>ImageConvert Pro is a free online tool that allows you to convert images between various formats including JPG, PNG, WEBP, and BMP. Our converter is fast, secure, and requires no registration or installation.</p>
+            
+            <div class="features">
+                <div class="feature">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Fast Conversion</h3>
+                    <p>Convert your images in seconds with our optimized processing algorithm.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>100% Secure</h3>
+                    <p>Your images are processed entirely in your browser and never uploaded to any server.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-infinity"></i>
+                    <h3>Unlimited Usage</h3>
+                    <p>Convert as many images as you want without any limitations or watermarks.</p>
+                </div>
+            </div>
+            
+            <h2>How to Convert Images</h2>
+            <p>Converting images with ImageConvert Pro is simple:</p>
+            <ol>
+                <li>Upload your image by dragging and dropping or using the file browser</li>
+                <li>Select your desired output format (JPG, PNG, WEBP, or BMP)</li>
+                <li>Click the Convert button to process your image</li>
+                <li>Download your converted image</li>
+            </ol>
+            
+            <h2>Supported Image Formats</h2>
+            <p>Our free image converter supports all popular image formats:</p>
+            <ul>
+                <li><strong>JPG/JPEG</strong> - Ideal for photographs with small file size</li>
+                <li><strong>PNG</strong> - Perfect for graphics with transparency support</li>
+                <li><strong>WEBP</strong> - Modern format with excellent compression</li>
+                <li><strong>BMP</strong> - Uncompressed format for maximum quality</li>
+            </ul>
         </div>
     </div>
     
